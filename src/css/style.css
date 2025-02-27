@@ -1,0 +1,25 @@
+.bg-purple-100:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.btn-primary:hover {
+    animation: bounce 0.5s ease infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-5px);
+    }
+}
+
+#about h2, #about h5 {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#about h2:hover, #about h5:hover {
+    transform: scale(1.1);
+    color: #d8b4fe; /* Warna lebih cerah saat hover */
+}
